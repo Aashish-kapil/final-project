@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container content-section">
+        <div class="shop-items">
+            <div class="shop-item">
+                <img src="main-item.png"
+                class="shop-item-images">
+            </div>
+            <div class="shop-item">
+                <section class="product-container font" >
+                    <div>
+                        <p id="item">Ashirwad Atta - Whole wheat 10 kg</p>
+                        <strong>Rs. 399</strong>
+                        <p>Pack Size</p>
+                        <button class="btn" id="btn1"> 10 kg Rs. 399</button>
+                        <button class="btn" id="btn2"> 5 kg Rs. 209 </button>
+                    </div>
+                
+                    <div>
+                        <p>Quantity:</p>
+                        <div>
+                            <button id="inc" onclick="totalClick1(1)">+</button>
+                            <span class="quantity" id="quantity">0</span>
+                            <button id="dec" onclick="totalClick2(-1)">-</button>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="payable">Payable</button>
+                        <span class="total" id="total">0</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="container content-section">
+        <div class="shop-items bg">
+            <div class="shop-item ">
+                <img src="item-2.jpg" class="shop-item-images ">
+                <span class="shop-item-title">Masala, Spices & Cooking Paste</span>
+            </div>
+            
+            <div class="fixed bg" >
+                <div class="display-items">
+                    <div class="display-items-images">
+                        <img src="item-3.jpg" class="iimages" >
+                        <span class="shop-item-title">Atta & Flour</span>
+                    </div>
+                    <div class="display-items-images">
+                        <img src="item-4.jpg" class="iimages" > <span class="shop-item-title">Rice & Rice Products</span>
+                    </div>
+                </div>
+                <div class="display-items">
+                    <div class="display-items-images">
+                        <img src="item-8.jpg" class="iimages" >  <span class="shop-item-title">Dal & Pulses</span>
+                    </div>
+                    <div class="display-items-images">
+                        <img src="item-6.jpg" class="iimages" >  <span class="shop-item-title">Cooking Oil</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
